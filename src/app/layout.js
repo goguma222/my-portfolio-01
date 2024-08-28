@@ -2,8 +2,7 @@
 // import "./globals.css";
 
 // const inter = Inter({ subsets: ["latin"] });
-
-import "@/assets/scss/style.scss"
+import "@/assets/scss/style.scss";
 
 export const metadata = {
   title: "JangHee Portfolio",
