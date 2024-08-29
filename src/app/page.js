@@ -5,12 +5,10 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "@/component/header";
 import Intro from "@/component/Intro";
+import About from "@/component/About";
 import Skill from "@/component/Skill";
-import Prot from "@/component/Port";
-import Site from "@/component/Site";
-import Skip from "@/component/Skip";
+import Port from "@/component/Port";
 import Contact from "@/component/Contact";
-import Footer from "@/component/Footer";
 
 
 export default function Home() {

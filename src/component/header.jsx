@@ -17,13 +17,14 @@ const Header = () => {
                 <div className="header__logo">
                     <h1>
                         <Link href="/">portfolio<em>janghee</em></Link>
-                        </h1>
+                    </h1>
                 </div>
                 <nav className={`header__nav ${show ? "show" : ""}`} role='navigation' aria-label='메인 메뉴'>
                     <ul>
                         {headerNav.map((nav, key) => (
                             <li key={key}>
-                                <Link href={nav.url}>{nav.title}</Link>
+                                {/* <Link href={nav.url}>{nav.title}</Link> */}
+                                <a href={nav.url}>{nav.title}</a>
                             </li>
                         ))}
                     </ul>
