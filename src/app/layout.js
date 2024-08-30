@@ -1,6 +1,5 @@
 // import { Inter } from "next/font/google";
 // import "./globals.css";
-
 // const inter = Inter({ subsets: ["latin"] });
 import "@/assets/scss/style.scss";
 
@@ -15,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="ko">
       {/* 파비콘 들어갈자리 */}
       {/* <link rel="icon" type="image/svg+sml" href="favicon.svg" /> */}
+      {/* suppressHydrationWarning={true} 바디에 넣기! 경고 무시 */}
       <body>{children}</body>
     </html>
   );

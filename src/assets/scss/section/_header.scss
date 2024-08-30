@@ -1,8 +1,15 @@
+.gap {
+    width: 100%;
+    height: 62px;
+    max-height: 62px;
+}
 #header {
     @include position-fixed;
     z-index: 10000;
     background-color: var(--mainBg-color);
     box-shadow: 0 1px 3px 0 #0004;
+    height: 62px;
+    max-height: 62px;
 }
 .header__inner {
     @include flex-between;
