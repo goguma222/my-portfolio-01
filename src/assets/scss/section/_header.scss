@@ -8,21 +8,21 @@
     z-index: 10000;
     background-color: var(--mainBg-color);
     box-shadow: 0 1px 3px 0 #0004;
-    height: 62px;
-    max-height: 62px;
+    height: 74px;
+    max-height: 74px;
 }
 .header__inner {
     @include flex-between;
     padding: 1rem;
 
     .header__logo {
-        font-size: 0.9rem;
         text-align: center;
         text-transform: uppercase;
         line-height: 1;
 
         a {
             color: var(--black);
+            font-size: 22px;
         }
 
         em {
@@ -44,7 +44,7 @@
                     display: block;
                     position: absolute;
                     right: 0;
-                    top: 63px;
+                    top: 74px;
                     background-color: var(--mainBg-color);
                     backdrop-filter: blur(15px);
                     z-index: 10000;

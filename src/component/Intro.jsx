@@ -3,6 +3,7 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import "@/assets/scss/section/_intro.scss";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -18,8 +19,8 @@ export default function Intro() {
 
         ani1.to("#section__intro .t1", { autoAlpha: 0, duration: 1, y: -50 })
             .to("#section__intro .t2", { autoAlpha: 1, duration: 1, y: 0 }, "+=1")
-            .to("#section__intro .t2", { autoAlpha: 0, duration: 1, y: 50 })
-            .to("#section__intro .t1", { autoAlpha: 1, duration: 1, y: 0 }, "+=1");
+            // .to("#section__intro .t2", { autoAlpha: 0, duration: 1, y: 50 })
+            // .to("#section__intro .t1", { autoAlpha: 1, duration: 1, y: 0 }, "+=1");
 
         ScrollTrigger.create({
             animation: ani1,
