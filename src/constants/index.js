@@ -43,3 +43,46 @@ export const about = [
         info: "lwh1747@naver.com"
     }
 ]
+
+export const skills = [
+    {
+        skill: "HTML5",
+        percentage: 90
+    },
+    {
+        skill: "CSS3",
+        percentage: 90
+    },
+    {
+        skill: "JAVASCRIPT",
+        percentage: 80
+    },
+    {
+        skill: "JQUERY",
+        percentage: 90
+    },
+    {
+        skill: "REACT",
+        percentage: 80
+    },
+    {
+        skill: "NEXT.JS",
+        percentage: 80
+    },
+    {
+        skill: "TAILWINDCSS",
+        percentage: 70
+    },
+    {
+        skill: "SCSS",
+        percentage: 90
+    },
+    {
+        skill: "GITHUB",
+        percentage: 90
+    },
+    {
+        skill: "PHP",
+        percentage: 30
+    }
+]

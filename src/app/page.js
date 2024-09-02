@@ -2,12 +2,12 @@
 // import styles from "./page.module.css";
 "use client";
 import Link from "next/link";
-import Header from "@/component/header";
-import Intro from "@/component/Intro";
-import About from "@/component/About";
-import Skill from "@/component/Skill";
-import Port from "@/component/Port";
-import Contact from "@/component/Contact";
+import Header from "@/components/header";
+import Intro from "@/components/Intro";
+import About from "@/components/About";
+import Skill from "@/components/Skill";
+import Port from "@/components/Port";
+import Contact from "@/components/Contact";
 
 
 export default function Home() {

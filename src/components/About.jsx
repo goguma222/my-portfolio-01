@@ -9,10 +9,10 @@ import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 export default function About() {
 
     return (
-        <section className="section section__about">
+        <section id="About" className="section section__about">
             <h2 className="d-none">About Me</h2>
             <article className="title__group">
-                <FontAwesomeIcon icon={faAddressCard} className="about__svg" />
+                <FontAwesomeIcon icon={faAddressCard} className="about__svg icon" />
                 <h3>About Me</h3>
             </article>
             <article className="group">

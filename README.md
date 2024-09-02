@@ -9,7 +9,7 @@
 
 - src/assets/setting : 셋팅 scss
 
-- src/component : 컴포넌트
+- src/components : 컴포넌트
 
 - src/constants : 정보
 
