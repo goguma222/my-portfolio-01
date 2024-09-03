@@ -15,6 +15,9 @@ export default function Port() {
                 <FontAwesomeIcon icon={faAddressCard} className="about__svg icon" />
                 <h3>Project</h3>
             </article>
+            <article className="project__group">
+                
+            </article>
         </section>
     )
 }
