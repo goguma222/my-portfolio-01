@@ -16,7 +16,7 @@
   
   .progress {
     height: 20px;
-    background-color: #1c75bc;
+    background-color: var(--deep_purple);
     width: 0; /* 초기 너비 */
     border-radius: 10px;
     transition: width 1s ease-in-out; /* 애니메이션 효과 */
