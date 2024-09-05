@@ -1,24 +1,23 @@
 .skill {
-    margin-bottom: 20px;
-  }
-  
-  .skillName {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-  }
-  
-  .progressBar {
-    width: 100%;
-    background-color: #f3f3f3;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .progress {
-    height: 20px;
-    background-color: var(--deep_purple);
-    width: 0; /* 초기 너비 */
-    border-radius: 10px;
-    transition: width 1s ease-in-out; /* 애니메이션 효과 */
-  }
-  
+  margin-bottom: 20px;
+}
+
+.skillName {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.progressBar {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 20px;
+  background-color: var(--deep_purple);
+  width: 0; /* 초기 너비 */
+  border-radius: 10px;
+  transition: width 1s ease-in-out; /* 애니메이션 효과 */
+}

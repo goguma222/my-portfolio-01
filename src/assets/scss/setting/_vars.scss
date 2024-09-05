@@ -1,42 +1,42 @@
 :root {
-    --mainEng-font: "Montserrat";
-    --mainKor-font: "nanumSquareNeo";
-    --mainNum-font: "gmarket";
-  
-    --mainBg-color: #fff;
-    --subBg-color: rgba(249, 250, 251, 1);
-  
-    --white: #fff;
-    --black: #333;
-    --blue: #329be7;
-    --blue-light: #0f81ab96;
-    --purple: #7012e0;
-    --lavender: #e6e6fa;
-    --deep_purple: rgba(102, 51, 153, .4);
+  --mainEng-font: "Montserrat";
+  --mainKor-font: "nanumSquareNeo";
+  --mainNum-font: "gmarket";
 
-    --opacity: rgba(0 1px 3px 0 #0000);
-  
-    font-family: var(--mainEng-font), var(--mainKor-font);
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-  
-    @media (max-width: 800px) {
-        font-size: 0.875rem;
-        line-height: 1.4;
-    }
+  --mainBg-color: #fff;
+  --subBg-color: rgba(249, 250, 251, 1);
+
+  --white: #fff;
+  --black: #333;
+  --blue: #329be7;
+  --blue-light: #0f81ab96;
+  --purple: #7012e0;
+  --lavender: #e6e6fa;
+  --deep_purple: rgba(102, 51, 153, 0.4);
+
+  --opacity: rgba(0 1px 3px 0 #0000);
+
+  font-family: var(--mainEng-font), var(--mainKor-font);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  @media (max-width: 800px) {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
 }
-  
+
 body {
-    background-color: var(--mainBg-color);
+  background-color: var(--mainBg-color);
 }
 
 .d-none {
-    display: none;
+  display: none;
 }
