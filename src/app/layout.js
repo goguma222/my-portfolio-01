@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
           referrerPolicy="no-referrer"
         />
       </Head>
-      <body>{children}</body>
+      <body suppressHydrationWarning>{children}</body>
     </html>
   );
 }

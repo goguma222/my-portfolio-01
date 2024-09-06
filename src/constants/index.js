@@ -28,8 +28,13 @@ import project02_05 from "../assets/img/hangcokorder/project05.png";
 import project02_06 from "../assets/img/hangcokorder/project06.png";
 import project02_07 from "../assets/img/hangcokorder/project07.png";
 
+// Third project
+import project03_01 from "../assets/img/portfolio/project01.png";
+import project03_02 from "../assets/img/portfolio/project02.png";
+import project03_03 from "../assets/img/portfolio/project03.png";
+
 // career
-import wincomeon from "../assets/img/career/wincomeon.jpg";
+import logo01 from "../assets/img/company/logo.png";
 
 export const headerNav = [
   {
@@ -52,6 +57,10 @@ export const headerNav = [
     title: "Contact",
     url: "#Contact",
   },
+  {
+    title: "Career",
+    url: "#Career",
+  }
 ];
 
 export const about = [
@@ -219,21 +228,48 @@ export const project = [
     period: "2024-05-21 ~ 2024-06-07",
     function: "웹 서비스",
   },
+  {
+    name: "이장희 포트폴리오",
+    alt: "포트폴리오",
+    img: [
+      project03_01,
+      project03_02,
+      project03_03,
+    ],
+    content01:
+      "현재 보고 계신 사이트는 포트폴리오 용도로 제작한 웹 사이트입니다.",
+    content02:
+      "gsap 라이브러리를 사용하여 ScrollTrigger 효과를 구현하였으며 그뿐만 next.js로 제작하면서 next.js로 웹 사이트 제작을 경험할 수 있어서 매우 좋은 경험이 되었습니다.",
+    content3:
+      "현재 페이지에서 저가 진행하였던 프로젝트들을 볼 수 있으며 앞으로 더 많은 프로젝트들을 경험해보고 업데이트를 자주하여 저 자신을 되돌아보며 성장하는 사이트로 만들겠습니다.",
+    participants: "본인 1명",
+    url: "https://github.com/goguma222/my-portfolio-01",
+    skill: ["html5, scss, css, next.js, react"],
+    period: "2024-08-30 ~ 2024-09-06",
+    function: "웹 포트폴리오",
+  },
 ];
 
-export const career = [
-  {
-    img: wincomeon,
+export const myCareer = {
+    img: logo01,
+    alt: "윈컴온로고",
     name: "윈컴온(주)",
     period: "2023.07 - 2024.06",
     content:
       "윈컴온은 온라인쇼핑몰 플랫폼 서비스를 운영하는 회사이며, 자체 웹 플랫폼 개발을 시도하는 스타트업 회사입니다.",
     job: "웹 퍼블리셔 직무를 맡았으며 회사 내 자체 쇼핑몰 유지보수 및 새로운 플랫폼 서비스 웹 퍼블리셔 업무를 담당하였습니다.",
-    detailName: ["행콕쇼핑몰", "행콕오더"],
-    pdPeriod: ["2024-01-16 ~ 2024-05-01", "2024-05-21 ~ 2024-06-07"],
-    pdContent: [
-      "행콕 (행사를 콕 집다!) 쇼핑몰 모바일 버전 리뉴얼 작업을 진행을 하였으며, 리뉴얼을 하게 된 이유는 사용자 경험과 인터페이스 디자인이 개선의 여지가 있었고 기존보다 더 좋은 서비스 환경을 만들기 위해 리뉴얼을 진행하게 되었습니다.",
-      "행콕 오더는 배달의민족 서비스를 벤치마킹한 배달, 예약(테이블), 포장 예약이 가능한 온라인 서비스 플랫폼입니다. 오더 플랫폼을 개발하게 된 계기는 온라인으로 배달, 예약(테이블), 포장 예약을 한 플랫폼에서 가능하게 하고 싶어서 개발을 하게 되었습니다.",
-    ],
+};
+
+export const JobDetails = [
+  {
+    name: "행콕쇼핑몰",
+    period: "2024-01-16 ~ 2024-05-01",
+    content: "행콕 (행사를 콕 집다!) 쇼핑몰 모바일 버전 리뉴얼 작업을 진행을 하였으며, 리뉴얼을 하게 된 이유는 사용자 경험과 인터페이스 디자인이 개선의 여지가 있었고 기존보다 더 좋은 서비스 환경을 만들기 위해 리뉴얼을 진행하게 되었습니다."
   },
-];
+  {
+    name: "행콕오더",
+    period: "2024-05-21 ~ 2024-06-07",
+    content: "행콕 오더는 배달의민족 서비스를 벤치마킹한 배달, 예약(테이블), 포장 예약이 가능한 온라인 서비스 플랫폼입니다. 오더 플랫폼을 개발하게 된 계기는 온라인으로 배달, 예약(테이블), 포장 예약을 한 플랫폼에서 가능하게 하고 싶어서 개발을 하게 되었습니다."
+  }
+]
+

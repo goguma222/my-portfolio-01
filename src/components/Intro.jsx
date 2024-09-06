@@ -11,7 +11,7 @@ export default function Intro() {
   useEffect(() => {
     // 클라이언트 측에서만 실행됨
     const ani1 = gsap.timeline();
-    console.log(ani1);
+    // console.log(ani1);
 
     // 기본 상태 설정
     gsap.set("#section__intro .t1", { autoAlpha: 1, y: 0 });
