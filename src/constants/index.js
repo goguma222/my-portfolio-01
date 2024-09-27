@@ -180,6 +180,30 @@ export const SkillPercentage = [
 
 export const project = [
   {
+    name: "HangcokOrder (배달,포장,예약 서비스 플렛폼)",
+    alt: "HangCokOrder",
+    img: [
+      project02_01,
+      project02_02,
+      project02_03,
+      project02_04,
+      project02_05,
+      project02_06,
+      project02_07,
+    ],
+    content01:
+      "행콕 오더는 배달의민족 서비스를 벤치마킹한 배달, 예약(테이블), 포장 예약이 가능한 온라인 서비스 플랫폼입니다. 오더 플랫폼을 개발하게 된 계기는 온라인으로 배달, 예약(테이블), 포장 예약을 한 플랫폼에서 가능하게 하고 싶어서 개발을 하게 되었습니다.",
+    content02:
+      "웹 퍼블리싱 작업은 혼자 맡아서 하였으며 사내 개발자 1명과 행콕 오더 플랫폼을 소통하면서 만들었으며, 플랫폼 개발은 1차, 2차, 3차 개발로 계획이 되어있으며 현재 1차 개발까지만 완료되어 있는 상태입니다.",
+    content3:
+      "프로젝트를 진행하는 과정에서 jquery, javascript 언어들을 충분히 숙달할 수 있고, 백엔드와 통신을 주고 받고 하는 API통신을 해봄으로써 프론트엔드 개발 경험을 할 수 있는 좋은 계기가 되었습니다.",
+    participants: "외주 개발자: 1명, 퍼블리셔 1명",
+    url: "https://hangcokorder.com",
+    skill: ["html5", "css3", "javascript", "jquery"],
+    period: "2024-05-21 ~ 2024-06-07",
+    function: "웹 서비스",
+  },
+  {
     name: "HangCok 쇼핑몰",
     alt: "HangCok",
     img: [
@@ -203,30 +227,6 @@ export const project = [
     skill: ["html5", "css3", "javascript", "jquery", "php"],
     period: "2024-01-16 ~ 2024-05-01",
     function: "온라인 쇼핑몰",
-  },
-  {
-    name: "HangcokOrder (배달,포장,예약 서비스 플렛폼)",
-    alt: "HangCokOrder",
-    img: [
-      project02_01,
-      project02_02,
-      project02_03,
-      project02_04,
-      project02_05,
-      project02_06,
-      project02_07,
-    ],
-    content01:
-      "행콕 오더는 배달의민족 서비스를 벤치마킹한 배달, 예약(테이블), 포장 예약이 가능한 온라인 서비스 플랫폼입니다. 오더 플랫폼을 개발하게 된 계기는 온라인으로 배달, 예약(테이블), 포장 예약을 한 플랫폼에서 가능하게 하고 싶어서 개발을 하게 되었습니다.",
-    content02:
-      "웹 퍼블리싱 작업은 혼자 맡아서 하였으며 사내 개발자 1명과 행콕 오더 플랫폼을 소통하면서 만들었으며, 플랫폼 개발은 1차, 2차, 3차 개발로 계획이 되어있으며 현재 1차 개발까지만 완료되어 있는 상태입니다.",
-    content3:
-      "프로젝트를 진행하는 과정에서 jquery, javascript 언어들을 충분히 숙달할 수 있고, 백엔드와 통신을 주고 받고 하는 API통신을 해봄으로써 프론트엔드 개발 경험을 할 수 있는 좋은 계기가 되었습니다.",
-    participants: "외주 개발자: 1명, 퍼블리셔 1명",
-    url: "https://hangcokorder.com",
-    skill: ["html5", "css3", "javascript", "jquery"],
-    period: "2024-05-21 ~ 2024-06-07",
-    function: "웹 서비스",
   },
   {
     name: "이장희 포트폴리오",
