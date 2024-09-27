@@ -33,6 +33,9 @@ import project03_01 from "../assets/img/portfolio/project01.png";
 import project03_02 from "../assets/img/portfolio/project02.png";
 import project03_03 from "../assets/img/portfolio/project03.png";
 
+// Fourth projecgt
+import project04_01 from "../assets/img/paper2u/project03_01.png";
+
 // career
 import logo01 from "../assets/img/company/logo.png";
 
@@ -199,8 +202,28 @@ export const project = [
       "프로젝트를 진행하는 과정에서 jquery, javascript 언어들을 충분히 숙달할 수 있고, 백엔드와 통신을 주고 받고 하는 API통신을 해봄으로써 프론트엔드 개발 경험을 할 수 있는 좋은 계기가 되었습니다.",
     participants: "외주 개발자: 1명, 퍼블리셔 1명",
     url: "https://hangcokorder.com",
+    url2: "https://xd.adobe.com/view/c4e48354-dacd-4c03-ae35-f3ba1f861b55-91b7/",
     skill: ["html5", "css3", "javascript", "jquery"],
     period: "2024-05-21 ~ 2024-06-07",
+    function: "웹 서비스",
+  },
+  {
+    name: "Paper2u (깨끗한나라 B2B 페이지)",
+    alt: "깨끗한나라B2B",
+    img: [
+      project04_01
+    ],
+    content01:
+      "Paper2u(페이퍼투유)는 깨끗한나라(화장지)회사와, 자사와의 B2B 사업을 진행하기 위해 자사에서 페이지 개발을 진행하였으며 현재 깨끗한나라와 계약 협상중에 있으며, Paper2u(페이퍼투유) 페이지는 깨끗한나라의 하청업체들의 제지 수량과 제고파악을 좀 더 원활하고 실시간으로 파악하기 위해서 개발을 진행하게 되었습니다.",
+    content02:
+      "웹 퍼블링싱 작업은 혼자서 맡아서 하였으며 사내 개발자 1명과 퍼블리셔 1명(본인)이 개발을 진행하였으며 현재 퍼블리싱 및 개발이 전부 진행이 되었습니다.",
+    content3:
+      "프로젝트를 진행하면서 Jquery, Javascript 언어들을 친숙하게 다룰 수 있게 되었으며, 퍼블리싱과 프론트 개발을 진행하면서 부족한 부분을 알게 되었으며 새로운 프로젝트들을 해봄으로써 경험을 많이 쌓을 수 있게 되었습니다.",
+    participants: "외주 개발자: 1명, 퍼블리셔 1명(본인)",
+    url: "https://Paper2u.co.kr",
+    url2: "https://xd.adobe.com/view/bf30ce89-135f-4b4d-a0fd-b02f15c1ee8c-ea63/",
+    skill: ["html5", "css3", "javascript", "jquery", "php"],
+    period: "2024-04-08 ~ 2024-05-17",
     function: "웹 서비스",
   },
   {
@@ -224,8 +247,9 @@ export const project = [
       "이 과정들을 통해 협업을 진행하는 데 있어서 기본적인 지식들을 잘 갖추어야 하는 이유를 깨달았으며 이 경험을 통해 기본을 중시하고 소통 능력을 높일 수 있었던 리뉴얼 프로젝트였습니다.",
     participants: "외주 개발자: 1명, 퍼블리셔 1명",
     url: "https://hangcok.com?mobile=on",
+    url2: "https://xd.adobe.com/view/c9379043-60a0-4e7d-97ee-fd61dd0a8258-9c64/",
     skill: ["html5", "css3", "javascript", "jquery", "php"],
-    period: "2024-01-16 ~ 2024-05-01",
+    period: "2024-01-16 ~ 2024-03-29",
     function: "온라인 쇼핑몰",
   },
   {
