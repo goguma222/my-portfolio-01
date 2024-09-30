@@ -39,7 +39,7 @@ export default function Career() {
               {myCareer.job}
             </p>
             {JobDetails.map((details, idx) => (
-              <div className={`details${idx + 1}`} key={idx}>
+              <div className={`details`} key={idx}>
                 <h5 className="pj_name">{details.name}</h5>
                 <span className="pj_period"><em>제작기간 : </em>{details.period}</span>
                 <p className="pj_content"><em>프로젝트 설명 : </em>{details.content}</p>
