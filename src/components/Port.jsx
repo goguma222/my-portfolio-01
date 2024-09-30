@@ -64,9 +64,9 @@ export default function Port() {
                 URL: {proj.url}
               </a>
               <br />
-              <a href={proj.url2} target="_blank" rel="noopener noreferrer">
+              {proj.url2 && <a href={proj.url2} target="_blank" rel="noopener noreferrer">
                 WEBDesign URL: {proj.url2}
-              </a>
+              </a>}
               {proj.explanation && <p className="pj_explanation">{proj.explanation}</p>}
             </div>
           </div>
