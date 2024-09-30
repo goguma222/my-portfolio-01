@@ -155,7 +155,7 @@ export const SkillPercentage = [
     name: "react",
   },
   {
-    percentage: 80,
+    percentage: 60,
     img: next,
     name: "next.js",
   },
