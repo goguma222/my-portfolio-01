@@ -251,6 +251,7 @@ export const project = [
     skill: ["html5", "css3", "javascript", "jquery", "php"],
     period: "2024-01-16 ~ 2024-03-29",
     function: "온라인 쇼핑몰",
+    explanation: "현재 사이트가 정상작동 되지 않습니다."
   },
   {
     name: "이장희 포트폴리오",
