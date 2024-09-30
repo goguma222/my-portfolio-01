@@ -108,7 +108,7 @@ export const skills = [
   },
   {
     skill: "NEXT.JS",
-    percentage: 80,
+    percentage: 60,
   },
   {
     skill: "TAILWINDCSS",
