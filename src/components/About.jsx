@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import React from "react";
-import { about } from "@/constants/index";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
+import React from 'react';
+import { about } from '@/constants/index';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 // import { faAddressCard } from '@fortawesome/free-solid-svg-icons'; solid 전용 cdn
 
 export default function About() {

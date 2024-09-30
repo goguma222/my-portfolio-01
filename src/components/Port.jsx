@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import React from "react";
-import Image from "next/image";
-import { project } from "@/constants/index";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react"; // Swiper 컴포넌트와 Slide 컴포넌트
+import React from 'react';
+import Image from 'next/image';
+import { project } from '@/constants/index';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Navigation, Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react'; // Swiper 컴포넌트와 Slide 컴포넌트
 
 export default function Port() {
   return (
@@ -37,7 +37,7 @@ export default function Port() {
                       alt={proj.alt}
                       width={500}
                       height={300}
-                      style={{ objectFit: "cover" }}
+                      style={{ objectFit: 'cover' }}
                     />
                   </SwiperSlide>
                 ))}
@@ -58,16 +58,20 @@ export default function Port() {
                 <strong>Function:</strong> {proj.function}
               </p>
               <p>
-                <strong>Technologies:</strong> {proj.skill.join(", ")}
+                <strong>Technologies:</strong> {proj.skill.join(', ')}
               </p>
               <a href={proj.url} target="_blank" rel="noopener noreferrer">
                 URL: {proj.url}
               </a>
               <br />
-              {proj.url2 && <a href={proj.url2} target="_blank" rel="noopener noreferrer">
-                WEBDesign URL: {proj.url2}
-              </a>}
-              {proj.explanation && <p className="pj_explanation">{proj.explanation}</p>}
+              {proj.url2 && (
+                <a href={proj.url2} target="_blank" rel="noopener noreferrer">
+                  WEBDesign URL: {proj.url2}
+                </a>
+              )}
+              {proj.explanation && (
+                <p className="pj_explanation">{proj.explanation}</p>
+              )}
             </div>
           </div>
         ))}

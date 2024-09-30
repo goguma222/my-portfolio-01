@@ -1,36 +1,36 @@
-"use client";
+'use client';
 
-import React from "react";
-import { useState } from "react";
-import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
+import React from 'react';
+import { useState } from 'react';
+import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    name: "",
-    email:"lwh1747@naver.com",
-    title: "",
-    message: "",
+    name: '',
+    email: 'lwh1747@naver.com',
+    title: '',
+    message: '',
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log("폼 제출", formData);
+    console.log('폼 제출', formData);
 
     const mailtoLink = `mailto:lwh1747@naver.com?subject=${encodeURIComponent(
-        formData.title
-      )}&body=${encodeURIComponent(`Name: ${formData.name}\n\nMessage: ${formData.message}`)}`;
-  
-      // 새로운 창에서 메일 클라이언트를 열도록 설정
-      window.location.href = mailtoLink;
+      formData.title
+    )}&body=${encodeURIComponent(`Name: ${formData.name}\n\nMessage: ${formData.message}`)}`;
+
+    // 새로운 창에서 메일 클라이언트를 열도록 설정
+    window.location.href = mailtoLink;
 
     setFormData({
-      name: "",
-      email:"lwh1747@naver.com",
-      title: "",
-      message: "",
+      name: '',
+      email: 'lwh1747@naver.com',
+      title: '',
+      message: '',
     });
   };
   return (
@@ -60,7 +60,14 @@ export default function Contact() {
                 setFormData({ ...formData, name: e.target.value })
               }
             />
-            <input type="email" name="email" id="email" placeholder="이메일주소" value={formData.email} onChange={(e) => setFormData({  ...formData.target.value })} />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="이메일주소"
+              value={formData.email}
+              onChange={(e) => setFormData({ ...formData.target.value })}
+            />
             <input
               type="text"
               name="title"

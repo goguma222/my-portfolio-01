@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import React, { useState } from "react";
-import { headerNav } from "@/constants/index";
+import Link from 'next/link';
+import React, { useState } from 'react';
+import { headerNav } from '@/constants/index';
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -25,7 +25,7 @@ const Header = () => {
             </h1>
           </div>
           <nav
-            className={`header__nav ${show ? "show" : ""}`}
+            className={`header__nav ${show ? 'show' : ''}`}
             role="navigation"
             aria-label="메인 메뉴"
           >
@@ -42,7 +42,7 @@ const Header = () => {
             className="header__nav__mobile"
             id="headerToggle"
             aria-controls="primary-menu"
-            aria-expanded={show ? "true" : "false"}
+            aria-expanded={show ? 'true' : 'false'}
             role="button"
             tabIndex="0"
             onClick={toggleMenu}

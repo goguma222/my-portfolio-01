@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import "@/assets/scss/section/_intro.scss";
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import '@/assets/scss/section/_intro.scss';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -14,20 +14,20 @@ export default function Intro() {
     // console.log(ani1);
 
     // 기본 상태 설정
-    gsap.set("#section__intro .t1", { autoAlpha: 1, y: 0 });
-    gsap.set("#section__intro .t2", { autoAlpha: 0, y: 50 });
+    gsap.set('#section__intro .t1', { autoAlpha: 1, y: 0 });
+    gsap.set('#section__intro .t2', { autoAlpha: 0, y: 50 });
 
     ani1
-      .to("#section__intro .t1", { autoAlpha: 0, duration: 1, y: -50 })
-      .to("#section__intro .t2", { autoAlpha: 1, duration: 1, y: 0 }, "+=1");
+      .to('#section__intro .t1', { autoAlpha: 0, duration: 1, y: -50 })
+      .to('#section__intro .t2', { autoAlpha: 1, duration: 1, y: 0 }, '+=1');
     // .to("#section__intro .t2", { autoAlpha: 0, duration: 1, y: 50 })
     // .to("#section__intro .t1", { autoAlpha: 1, duration: 1, y: 0 }, "+=1");
 
     ScrollTrigger.create({
       animation: ani1,
-      trigger: "#section__intro",
-      start: "top top",
-      end: "+=2000",
+      trigger: '#section__intro',
+      start: 'top top',
+      end: '+=2000',
       scrub: true,
       pin: true,
       anticipatePin: 1,

@@ -22,7 +22,9 @@
 
     .first__txt_group.t1 {
       opacity: 1;
-      transition: opacity 1s ease, transform 1s ease;
+      transition:
+        opacity 1s ease,
+        transform 1s ease;
       text-align: center;
       position: absolute;
       top: 50% !important;
@@ -53,7 +55,9 @@
 
     .second__txt_group.t2 {
       opacity: 0;
-      transition: opacity 1s ease, transform 1s ease;
+      transition:
+        opacity 1s ease,
+        transform 1s ease;
       text-align: center;
       position: absolute;
       top: 50% !important;
@@ -112,7 +116,7 @@
 
         &::before,
         &::after {
-          content: "";
+          content: '';
           position: absolute;
           top: 20%;
           left: 50%;

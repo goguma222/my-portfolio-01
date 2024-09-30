@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import React from "react";
-import Image from "next/image";
-import { skills, SkillPercentage } from "@/constants/index";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
+import React from 'react';
+import Image from 'next/image';
+import { skills, SkillPercentage } from '@/constants/index';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 // import { faAddressCard } from '@fortawesome/free-solid-svg-icons'; solid 전용 cdn
-import SkillProgressBar from "@/components/SkillProgressBar";
+import SkillProgressBar from '@/components/SkillProgressBar';
 
 export default function Skill() {
   return (
@@ -23,7 +23,7 @@ export default function Skill() {
               <Image
                 src={percentage.img}
                 alt={percentage.name}
-                style={{ width: "100%", height: "auto" }}
+                style={{ width: '100%', height: 'auto' }}
               />
               <span className="percentage">{percentage.percentage}%</span>
             </li>

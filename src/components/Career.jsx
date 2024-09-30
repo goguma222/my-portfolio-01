@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import { myCareer, JobDetails } from "@/constants/index";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
+import Image from 'next/image';
+import { myCareer, JobDetails } from '@/constants/index';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 
 export default function Career() {
   return (
@@ -41,8 +41,14 @@ export default function Career() {
             {JobDetails.map((details, idx) => (
               <div className={`details`} key={idx}>
                 <h5 className="pj_name">{details.name}</h5>
-                <span className="pj_period"><em>제작기간 : </em>{details.period}</span>
-                <p className="pj_content"><em>프로젝트 설명 : </em>{details.content}</p>
+                <span className="pj_period">
+                  <em>제작기간 : </em>
+                  {details.period}
+                </span>
+                <p className="pj_content">
+                  <em>프로젝트 설명 : </em>
+                  {details.content}
+                </p>
               </div>
             ))}
           </div>

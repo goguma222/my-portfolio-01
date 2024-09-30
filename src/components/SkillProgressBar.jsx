@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import styles from "@/components/SkillProgressBar.module.css";
+import React, { useState, useEffect } from 'react';
+import styles from '@/components/SkillProgressBar.module.css';
 
 const SkillProgressBar = ({ skill, percentage }) => {
   const [progressWidth, setProgressWidth] = useState(0);
