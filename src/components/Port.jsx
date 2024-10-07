@@ -69,9 +69,16 @@ export default function Port() {
                   WEBDesign URL: {proj.url2}
                 </a>
               )}
+              {proj.url3 && (
+                <a href={proj.url3} target="_blank" rel="noopener noreferrer">
+                  GitHub URL: {proj.url3}
+                </a>
+              )}
               {proj.explanation && (
                 <p className="pj_explanation">{proj.explanation}</p>
               )}
+              {proj.loginID && <p>아이디 : {proj.loginID}</p>}
+              {proj.loginPW && <p>패스워드 : {proj.loginPW}</p>}
             </div>
           </div>
         ))}

@@ -36,6 +36,10 @@ import project03_03 from '../assets/img/portfolio/project03.png';
 // Fourth projecgt
 import project04_01 from '../assets/img/paper2u/project03_01.png';
 
+// Five project
+import project05_01 from '../../public/img/JangheePlans/project05_01.png';
+import project05_02 from '../../public/img/JangheePlans/project05_02.png';
+
 // career
 import logo01 from '../assets/img/company/logo.png';
 
@@ -183,6 +187,23 @@ export const SkillPercentage = [
 
 export const project = [
   {
+    name: 'JangheePlans',
+    alt: 'JangheePlans',
+    img: [project05_01, project05_02],
+    content01:
+      'JangheePlans는 온라인 강의를 들으면서 미니 프로젝트를 진행하였으며 미니 프로젝트인 TodoList(투 두 리스트)를 React를 사용하여 제작을 하였으며, 추가로 게시판을 개발해 보았습니다.',
+    content02:
+      'React강의를 듣고 개인적으로 투두리스트를 만들어 보면서 React언어를 이해할 수 있게 되었으며, 처음에 json-server를 이용하여 투두리스트를 만들고 실제 서버에 올렸을 때 외부 데이터베이스를 쓰지 않아서 CRUD(생성, 조회, 업데이트, 삭제)를 할 때 오류가 뜨는 현상을 겪었습니다. 그래서 온라인에 서칭을 한 결과 실제 외부 데이터베이스를 활용해야지 오류가 해결된다는 것을 알게 된 후 파이어베이스에 현재 프로젝트(JangheePlans)를 연동하여 CRUD를 할 수 있게 되었습니다.',
+    content3:
+      '추가로 개인적으로 파이어베이스와 리액트를 사용하여 게시판을 만들어 보았으며 만들면서 React와 firebase를 조금 더 친숙하게 다룰 수 있게 되었으며, 이와 같은 기술들을 사용하여 현재 계획하고 있는 웹페이지를 추가로 만들어 볼 수 있을 정도로 친숙해 진 것 같습니다.',
+    participants: '1명(본인)',
+    url: 'https://lean-canvas-react-nine.vercel.app/',
+    url3: 'https://github.com/goguma222/lean-canvas-react/tree/main',
+    skill: ['React', 'Firebase', 'TailwindCss', 'git', 'github'],
+    period: '2024-09-08 ~ 2024-10-08',
+    function: '포트폴리오',
+  },
+  {
     name: 'HangcokOrder (배달,포장,예약 서비스 플렛폼)',
     alt: 'HangCokOrder',
     img: [
@@ -206,6 +227,8 @@ export const project = [
     skill: ['html5', 'css3', 'javascript', 'jquery'],
     period: '2024-05-21 ~ 2024-06-07',
     function: '웹 서비스',
+    loginID: 'id: wnehs486',
+    loginPW: 'pw: 111111',
   },
   {
     name: 'Paper2u (깨끗한나라 B2B 페이지)',
