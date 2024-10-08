@@ -227,8 +227,8 @@ export const project = [
     skill: ['html5', 'css3', 'javascript', 'jquery'],
     period: '2024-05-21 ~ 2024-06-07',
     function: '웹 서비스',
-    loginID: 'id: wnehs486',
-    loginPW: 'pw: 111111',
+    loginID: 'wnehs486',
+    loginPW: '111111',
     explanation:
       '현재 프로젝트는 로그인을 하여만 페이지를 볼 수 있습니다. 아래 패스워드를 사용하여 로그인 해주시면 되겠습니다.',
   },
@@ -248,8 +248,8 @@ export const project = [
     skill: ['html5', 'css3', 'javascript', 'jquery', 'php'],
     period: '2024-04-08 ~ 2024-05-17',
     function: '웹 서비스',
-    loginID: 'id: sellerid',
-    loginPW: 'pw: 1111',
+    loginID: 'sellerid',
+    loginPW: '1111',
     explanation:
       '현재 프로젝트는 로그인을 하여만 페이지를 볼 수 있습니다. 아래 패스워드를 사용하여 로그인 해주시면 되겠습니다.',
   },
