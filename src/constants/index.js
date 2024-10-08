@@ -199,7 +199,7 @@ export const project = [
     participants: '1명(본인)',
     url: 'https://lean-canvas-react-nine.vercel.app/',
     url3: 'https://github.com/goguma222/lean-canvas-react/tree/main',
-    skill: ['React', 'Firebase', 'TailwindCss', 'git', 'github'],
+    skill: ['React', 'Firebase', 'Vite', 'TailwindCss', 'git', 'github'],
     period: '2024-09-08 ~ 2024-10-08',
     function: '포트폴리오',
   },
@@ -229,6 +229,8 @@ export const project = [
     function: '웹 서비스',
     loginID: 'id: wnehs486',
     loginPW: 'pw: 111111',
+    explanation:
+      '현재 프로젝트는 로그인을 하여만 페이지를 볼 수 있습니다. 위 패스워드를 사용하여 로그인 해주시면 되겠습니다.',
   },
   {
     name: 'Paper2u (깨끗한나라 B2B 페이지)',
@@ -246,6 +248,10 @@ export const project = [
     skill: ['html5', 'css3', 'javascript', 'jquery', 'php'],
     period: '2024-04-08 ~ 2024-05-17',
     function: '웹 서비스',
+    loginID: 'id: sellerid',
+    loginPW: 'pw: 1111',
+    explanation:
+      '현재 프로젝트는 로그인을 하여만 페이지를 볼 수 있습니다. 위 패스워드를 사용하여 로그인 해주시면 되겠습니다.',
   },
   {
     name: 'HangCok 쇼핑몰',
