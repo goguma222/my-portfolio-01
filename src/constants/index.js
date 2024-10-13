@@ -100,7 +100,7 @@ export const skills = [
   },
   {
     skill: 'JAVASCRIPT',
-    percentage: 80,
+    percentage: 90,
   },
   {
     skill: 'JQUERY',
@@ -108,11 +108,19 @@ export const skills = [
   },
   {
     skill: 'REACT',
-    percentage: 80,
+    percentage: 90,
   },
   {
-    skill: 'NEXT.JS',
-    percentage: 60,
+    skill: 'Redux',
+    percentage: 85,
+  },
+  {
+    skill: 'React-Query',
+    percentage: 85,
+  },
+  {
+    skill: 'TypeScript',
+    percentage: 85,
   },
   {
     skill: 'TAILWINDCSS',
