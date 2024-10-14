@@ -199,7 +199,7 @@ export const SkillPercentage = [
 
 export const project = [
   {
-    name: 'JangheePlans',
+    name: 'JangheePlans ( 투두리스트 & 게시판 )',
     alt: 'JangheePlans',
     img: [project05_01, project05_02],
     content01:
