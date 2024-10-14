@@ -1,47 +1,47 @@
-import html from '../assets/img/skill/html5.png';
-import css from '../assets/img/skill/css.png';
-import javascript from '../assets/img/skill/javascript.png';
-import jquery from '../assets/img/skill/jquery.png';
-import react from '../assets/img/skill/react.png';
-import next from '../assets/img/skill/next.png';
-import tailwindcss from '../assets/img/skill/tailwindcss.png';
-import scss from '../assets/img/skill/scss.png';
-import github from '../assets/img/skill/GitHub.png';
-import php from '../assets/img/skill/php.png';
+import html from '../../public/img/skill/html5.png';
+import css from '../../public/img/skill/css.png';
+import javascript from '../../public/img/skill/javascript.png';
+import jquery from '../../public/img/skill/jquery.png';
+import react from '../../public/img/skill/react.png';
+import next from '../../public/img/skill/next.png';
+import tailwindcss from '../../public/img/skill/tailwindcss.png';
+import scss from '../../public/img/skill/scss.png';
+import github from '../../public/img/skill/GitHub.png';
+import php from '../../public/img/skill/php.png';
 // project image
 // first project
-import project01_01 from '../assets/img/hangcok/project01.png';
-import project01_02 from '../assets/img/hangcok/project02.png';
-import project01_03 from '../assets/img/hangcok/project03.png';
-import project01_04 from '../assets/img/hangcok/project04.png';
-import project01_05 from '../assets/img/hangcok/project05.png';
-import project01_06 from '../assets/img/hangcok/project06.png';
-import project01_07 from '../assets/img/hangcok/project07.png';
-import project01_08 from '../assets/img/hangcok/project08.png';
+import project01_01 from '../../public/img/hangcok/project01.png';
+import project01_02 from '../../public/img/hangcok/project02.png';
+import project01_03 from '../../public/img/hangcok/project03.png';
+import project01_04 from '../../public/img/hangcok/project04.png';
+import project01_05 from '../../public/img/hangcok/project05.png';
+import project01_06 from '../../public/img/hangcok/project06.png';
+import project01_07 from '../../public/img/hangcok/project07.png';
+import project01_08 from '../../public/img/hangcok/project08.png';
 
 // second project
-import project02_01 from '../assets/img/hangcokorder/project01.png';
-import project02_02 from '../assets/img/hangcokorder/project02.png';
-import project02_03 from '../assets/img/hangcokorder/project03.png';
-import project02_04 from '../assets/img/hangcokorder/project04.png';
-import project02_05 from '../assets/img/hangcokorder/project05.png';
-import project02_06 from '../assets/img/hangcokorder/project06.png';
-import project02_07 from '../assets/img/hangcokorder/project07.png';
+import project02_01 from '../../public/img/hangcokorder/project01.png';
+import project02_02 from '../../public/img/hangcokorder/project02.png';
+import project02_03 from '../../public/img/hangcokorder/project03.png';
+import project02_04 from '../../public/img/hangcokorder/project04.png';
+import project02_05 from '../../public/img/hangcokorder/project05.png';
+import project02_06 from '../../public/img/hangcokorder/project06.png';
+import project02_07 from '../../public/img/hangcokorder/project07.png';
 
 // Third project
-import project03_01 from '../assets/img/portfolio/project01.png';
-import project03_02 from '../assets/img/portfolio/project02.png';
-import project03_03 from '../assets/img/portfolio/project03.png';
+import project03_01 from '../../public/img/portfolio/project01.png';
+import project03_02 from '../../public/img/portfolio/project02.png';
+import project03_03 from '../../public/img/portfolio/project03.png';
 
 // Fourth projecgt
-import project04_01 from '../assets/img/paper2u/project03_01.png';
+import project04_01 from '../../public/img/paper2u/project03_01.png';
 
 // Five project
 import project05_01 from '../../public/img/JangheePlans/project05_01.png';
 import project05_02 from '../../public/img/JangheePlans/project05_02.png';
 
 // career
-import logo01 from '../assets/img/company/logo.png';
+import logo01 from '../../public/img/company/logo.png';
 
 export const headerNav = [
   {
