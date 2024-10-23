@@ -1,6 +1,10 @@
 .section__about {
   padding: 80px 14px;
 
+  @media (min-width: 1280px) {
+    padding: 1rem 15rem;
+  }
+
   .title__group {
     display: flex;
     align-items: center;
